@@ -8,7 +8,8 @@
         <button class="bg-[#FB432C] text-white px-6 py-2 rounded-full">Start for free</button>
     </div>
     <div class="flex justify-center">
-        <img src="../assets/images/Group.png" alt="">
+        <img class="lg:w-[2000px] lg:-mt-40" src="../assets/images/Group.png" alt="">
+        <!-- <img class="hidden lg:flex" src="../assets/images/MainLaptop.png" alt=""> -->
     </div>
     <div class="flex items-center justify-center gap-2">
         <p class="text-[#A3A3A3] text-[14px]">Want to talk or get a live demo?</p>

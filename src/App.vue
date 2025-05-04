@@ -1,6 +1,5 @@
 <script setup>
 import Archive from "./components/Archive.vue";
-import BetterFeedback from "./components/BetterFeedback.vue";
 import Header from "./components/Header.vue";
 import LovedByDesigners from "./components/LovedByDesigners.vue";
 import Main from "./components/Main.vue";
@@ -9,6 +8,7 @@ import Testimonial from "./components/Testimonial.vue";
 import KeepInLoop from "./components/KeepInLoop.vue";
 import TeamsVisibility from "./components/TeamsVisibility.vue";
 import Footer from "./components/Footer.vue";
+import MainPortion from "./components/BetterFeedback/MainPortion.vue";
 </script>
 
 <template>
@@ -17,8 +17,7 @@ import Footer from "./components/Footer.vue";
   <Main></Main>
 
   <ShareAnything></ShareAnything>
-
-  <BetterFeedback></BetterFeedback>
+  <MainPortion></MainPortion>
 
   <Archive></Archive>
 
